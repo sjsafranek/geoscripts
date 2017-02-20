@@ -12,7 +12,7 @@ def main(address):
     data = r.json()
     lon = data["result"]["addressMatches"][0]["coordinates"]["x"]
     lat = data["result"]["addressMatches"][0]["coordinates"]["y"]
-    print(lon,lat)
+    print("POINT("+str(lon)+" "+str(lat)+")")
 
 if __name__ in "__main__":
     main(sys.argv[1])
