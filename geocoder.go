@@ -7,6 +7,8 @@ import (
 	"io/ioutil"
 	"encoding/json"
 	"flag"
+	"net/url"
+	"strings"
 )
 
 
@@ -69,7 +71,13 @@ type GeocodeApiResponse struct {
 
 func geocode(address string) GeocodeApiResponse {
 	var location GeocodeApiResponse
-	resp, err := http.Get("http://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=" + address + "&format=json&benchmark=9")
+	
+	path := "http://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=" + address + "&format=json&benchmark=9"
+	path = strings.Replace(path, " ", "%20", -1)
+	
+	uri, _ := url.Parse(path)
+	
+	resp, err := http.Get(uri.String())
 	if err != nil {
 		fmt.Printf("%s", err)
 		os.Exit(1)
@@ -77,8 +85,9 @@ func geocode(address string) GeocodeApiResponse {
 		body, _ := ioutil.ReadAll(resp.Body)
 		err := json.Unmarshal(body,&location)
 		if err != nil {
-			fmt.Printf("%s", err)
-			fmt.Println(string(body))
+			fmt.Printf("%s\n", err)
+			//fmt.Println(string(body))
+			fmt.Println(uri)
 			os.Exit(1)
 		}
 	}
@@ -95,7 +104,9 @@ func main() {
 		location := geocode(*address)
 		lon := location.Result.AddressMatches[0].Coordinates.X
 		lat := location.Result.AddressMatches[0].Coordinates.Y
-		fmt.Println(lon,lat)
+		//fmt.Println(,lon,lat)
+		result := fmt.Sprintf("POINT(%v %v)", lon, lat)
+		fmt.Println(result)
 	} else {
 		fmt.Println("Incorrect usage!!")
 	}

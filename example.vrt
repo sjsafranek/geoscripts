@@ -1,9 +1,0 @@
-<OGRVRTDataSource>
-    <OGRVRTLayer name="test">
-        <SrcDataSource>test.csv</SrcDataSource>
-    <SrcLayer>TEST</SrcLayer>
-    <GeometryType>wkbPoint</GeometryType>
-        <LayerSRS>WGS84</LayerSRS>
-    <GeometryField encoding="PointFromColumns" x="Longitude" y="Latitude"/>
-    </OGRVRTLayer>
-</OGRVRTDataSource>
