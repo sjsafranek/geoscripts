@@ -10,9 +10,15 @@ def main(address):
     }
     r = requests.get(uri,params)
     data = r.json()
-    lon = data["result"]["addressMatches"][0]["coordinates"]["x"]
-    lat = data["result"]["addressMatches"][0]["coordinates"]["y"]
-    print("POINT("+str(lon)+" "+str(lat)+")")
+    try:
+        lon = data["result"]["addressMatches"][0]["coordinates"]["x"]
+        lat = data["result"]["addressMatches"][0]["coordinates"]["y"]
+        print("POINT("+str(lon)+" "+str(lat)+")")
+    except Exception as e:
+        print(e)
 
 if __name__ in "__main__":
-    main(sys.argv[1])
+    address = ' '.join( sys.argv[1:] )
+    print(address)
+    #main(sys.argv[1])
+    main(address)

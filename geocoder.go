@@ -101,6 +101,7 @@ func main() {
 	address := flag.String("address", "NONE", "address to geocode")
 	flag.Parse() 
 	if *address != "NONE" {
+		fmt.Println(*address)
 		location := geocode(*address)
 		lon := location.Result.AddressMatches[0].Coordinates.X
 		lat := location.Result.AddressMatches[0].Coordinates.Y
