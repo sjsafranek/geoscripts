@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>V 2.0 of Walking and Biking Safety Improvement Potential Projects</name>
+    <description/>
+    <Style id="icon-seq2-0-0-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-0-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-0-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-0-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-0-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-1-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-1-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-1-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-1-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-1-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-2-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-2-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-2-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-2-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-2-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-3-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-3-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-3-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-3-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-3-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-4-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-4-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-4-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-4-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-4-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-5-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-5-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-5-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-5-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-5-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-6-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-6-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-6-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-6-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-6-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-7-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-7-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-7-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-7-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-7-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-8-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-8-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-8-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-8-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-8-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-9-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-9-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-9-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-9-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-9-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-0-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-0-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-0-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-0-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-0-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-1-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-1-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-1-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-1-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-1-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-2-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-2-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-2-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-2-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-2-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-3-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-3-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-3-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-3-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-3-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-4-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-4-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-4-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-4-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-4-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-5-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-16.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-5-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-16.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-5-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-5-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-5-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-6-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-17.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-6-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-17.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-6-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-6-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-6-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Fund, Plan, and Construct</name>
+      <Placemark>
+        <name>32nd Street RRFB</name>
+        <description>Add RRFB crossing to align with neighborhood accessway. Would also serve as a connection to/from the Mill Race Path. Remove existing crosswalk in front of school.</description>
+        <styleUrl>#icon-seq2-0-0-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9807339,44.0374653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thurston Middle School RRFB</name>
+        <description>Add RRFB and curb-extension.</description>
+        <styleUrl>#icon-seq2-0-1-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9162377,44.0529819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West D St</name>
+        <description>Develop design concept and build bike facility enhancements that address speeding and bike network connectivity challenges.</description>
+        <styleUrl>#icon-seq2-0-2-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -123.0281811,44.0497259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D St Path Transition</name>
+        <description><![CDATA[Improve transition from path to street where northbank path (also known as "D St Path") ends.]]></description>
+        <styleUrl>#icon-seq2-0-3-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -123.0331249,44.0494297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>28th St Sidewalk</name>
+        <description>Fill sidewalk gaps between Centennial and Main St. Add ADA ramps where appropriate.</description>
+        <styleUrl>#icon-seq2-0-4-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9867206,44.0506419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Riverbend Elementary Raised Crosswalk</name>
+        <description>Add raised crosswalk with bulb-out to provide traffic calming and increase visibility of students.</description>
+        <styleUrl>#icon-seq2-0-5-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -122.94258,44.0481921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ball Flasher to Rapid Flashing Beacon Conversions</name>
+        <description>Convert standard ball lighting at crossings to RRFB flashers for increased compliance.</description>
+        <styleUrl>#icon-seq2-0-6-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9965439,44.0689514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>54th Path</name>
+        <description>Construct 12-foot wide path from south of Main St to Daisy St, add a few lights. Coordinate construction timing with Virginia-Daisy Bikeway 2018.</description>
+        <styleUrl>#icon-seq2-0-7-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9351578,44.0427699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10th St Bike Lanes</name>
+        <description>Add bike lanes (Main Street to Centennial Blvd).</description>
+        <styleUrl>#icon-seq2-0-8-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -123.0124826,44.0527116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21st St Bike Lanes</name>
+        <description>Add one block of bike lanes from Centennial to J to complete corridor continuity.</description>
+        <styleUrl>#icon-seq2-0-9-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9943509,44.0555722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Possibly Fund</name>
+      <Placemark>
+        <name>Riverbank Path Lighting</name>
+        <description>Add path lighting to improve safety and security of D St Path. I-5 bridge to where path transitions to D St.</description>
+        <styleUrl>#icon-seq2-1-0-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            -123.0413218,44.048344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centennial Blvd Bike Lane Continuity</name>
+        <description>Add bicycle facilities through intersections at 5th, 10th, and 18th.</description>
+        <styleUrl>#icon-seq2-1-1-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            -123.012517,44.0561659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Thurston Rd & 69th RRFB]]></name>
+        <description>Add a crosswalk with a rapid rectangular flashing beacon. Sidewalk ends on northside of street at this location. Posted speed is 40 mph.</description>
+        <styleUrl>#icon-seq2-1-2-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9041085,44.0536893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Study: 28th St Bike Lanes</name>
+        <description>Study adding bike lanes to both sides of street from Centennial to Main St.</description>
+        <styleUrl>#icon-seq2-1-3-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9867935,44.0524463,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Study: 5th St Bike Lanes</name>
+        <description>Study adding bike lanes on both sides of 5th St from Centennial to A St.</description>
+        <styleUrl>#icon-seq2-1-4-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            -123.0195122,44.0516752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Study: Oakdale Bike Facilities</name>
+        <description>Oakdale St / Pheasant St / Game Farm Road. Study possible bike facility treatments (signing, striping, sharrows, traffic calming, etc.).</description>
+        <styleUrl>#icon-seq2-1-5-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            -123.0371075,44.0736874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Virginia-Daisy Bikeway</name>
+        <description>Fund only if needed, hopefully $0</description>
+        <styleUrl>#icon-seq2-1-6-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9632244,44.0419339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
