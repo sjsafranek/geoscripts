@@ -7,35 +7,40 @@ set +x
 TABLE="tmp_portland_streets"
 GEOM="POINT(-72.1235 42.3521)"
 K="1"
-
+HELP=false
 
 while [[ $# -gt 1 ]]; do
-key="$1"
-echo "$key"
-case $key in
-    -t|--table)
-        TABLE="$2"
-        shift # past argument
-    ;;
-    -g|--geom)
-        GEOM="$2"
-        shift # past argument
-    ;;
-    -k|--k)
-        K="$2"
-        shift # past argument
-    ;;
-    -h|--help)
-        echo "pgsql_knn_to_point.sh -k INTEGER -g GEOM_WKT -t STRING"
-        exit 0
-    ;;
-    *)
-        echo "unknown $key"
-        # unknown option
-    ;;
-esac
-shift # past argument or value
+    key="$1"
+    case $key in
+        -t|--table)
+            TABLE="$2"
+            shift # past argument
+        ;;
+        -g|--geom)
+            GEOM="$2"
+            shift # past argument
+        ;;
+        -k|--k)
+            K="$2"
+            shift # past argument
+        ;;
+        -h|--help)
+            HELP=true
+        ;;
+        *)
+            echo "unknown $key"
+            # unknown option
+        ;;
+    esac
+    shift # past argument or value
 done
+
+
+if [ true = "$HELP" ]; then
+    echo "pgsql_knn_to_point.sh -k INTEGER -g GEOM_WKT -t STRING"
+    exit 0
+fi
+
 
 echo "SELECT
     $TABLE.*,
